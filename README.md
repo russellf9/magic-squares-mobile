@@ -36,9 +36,9 @@ To solve the puzzle the numbers in each row, and in each column, and the diagona
 
 ## Version
 
-The current version of the app is:
+The app version of this branch is:
 
-**0.1.6**
+**0.2.0**
 
 
 ## App Store
