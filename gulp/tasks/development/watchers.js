@@ -24,5 +24,6 @@ gulp.task('watchers', function() {
     gulp.watch(config.paths.vendor, ['vendor']);
     gulp.watch(config.paths.partials, ['scripts', 'partials', 'index']);
     gulp.watch(config.paths.index, ['index']);
+
 });
 
