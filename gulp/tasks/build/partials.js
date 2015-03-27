@@ -11,8 +11,6 @@ gulp.task('partials', function() {
         src = './app/partials/**/*.html',
         targetDir = path.resolve(build ? './www/' : './.tmp/');
 
-    console.log('doing partials!');
-
     gulp.src(src)
         .pipe(gulp.dest(path.join(targetDir, 'partials')));
 });
