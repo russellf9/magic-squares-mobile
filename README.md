@@ -159,6 +159,19 @@ $ gulp branch
 
 A webhook has been which will display the commit message on the specified Trello card.
 
+Also, use the imperative form.
+
+In the following example the Webhook will move the Trello card to the `Done` list.
+
+```
+Github Trello Integration - Trello  Done #58
+
+The link to the commit on Github should be active and the name of the developer who committed the file should be present.
+
+- Update the webhook settings
+
+```
+
 
 ## Known Issues:
 
