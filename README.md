@@ -157,7 +157,7 @@ $ gulp branch
 
 ## Trello/Github Integration
 
-
+A webhook has been which will display the commit message on the specified Trello card.
 
 
 ## Known Issues:
