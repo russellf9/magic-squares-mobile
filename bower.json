@@ -1,9 +1,9 @@
 {
   "name": "magic-squares",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": "true",
   "devDependencies": {
-    "ionic": "driftyco/ionic-bower#1.0.0-beta.14",
+    "ionic": "driftyco/ionic-bower#1.0.0-rc.1",
     "angular-dragdrop": "~1.0.11",
     "jquery": "~2.1.3",
     "jquery-ui": "~1.11.2",
