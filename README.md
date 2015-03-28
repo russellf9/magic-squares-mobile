@@ -173,6 +173,9 @@ The link to the commit on Github should be active and the name of the developer 
 ```
 
 
+Instructions can ne found here: [hook-to-trello](https://github.com/olebedev/hook-to-trello.)
+
+
 ## Known Issues:
 
 ### SASS
