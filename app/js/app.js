@@ -11,13 +11,33 @@ angular.module('magicsquares', ['ionic', 'ngDragDrop', 'angular.filter', 'magics
 
     .config(function($stateProvider, $urlRouterProvider) {
 
-        $urlRouterProvider.otherwise('/');
+        $stateProvider
+            .state('tabs', {
+                url: "/tab",
+                abstract: true,
+                templateUrl: "partials/tabs.html"
+            })
+            .state('tabs.home', {
+                url: '/home',
+                views: {
+                    'home-tab': {
+                        templateUrl: "partials/home.html",
+                        controller: 'Home',
+                        controllerAs: 'home'
+                    }
+                }
+            })
+            .state('tabs.game', {
+                url: '/game',
+                views: {
+                    'game-tab': {
+                        templateUrl: "partials/game.html",
+                        controller: 'Master',
+                        controllerAs: 'master'
+                    }
+                }
+            });
 
-        $stateProvider.state('menu', {
-            url: '/',
-            controller: 'Master',
-            controllerAs: 'master',
-            templateUrl: './partials/game.html'
-        });
+        $urlRouterProvider.otherwise("/tab/home");
     });
 
