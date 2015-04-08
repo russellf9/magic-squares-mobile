@@ -1,4 +1,9 @@
-<ion-view view-title="Game" hide-nav-bar="true">
+<ion-view view-title="Game" hide-nav-bar="false" ng-controller="Navigation as navigation">
+    <ion-nav-buttons side="primary">
+        <button class="button-icon ion-arrow-left-c button back-button" ng-click="navigation.goBack()">
+           Back
+        </button>
+    </ion-nav-buttons>
     <ion-content ng-if="true" class="column" ng-controller="Master as master">
 
         <div ng-if="true" class="row instructions-row flex-container">

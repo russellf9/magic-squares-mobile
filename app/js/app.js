@@ -30,7 +30,7 @@ angular.module('magicsquares', ['ionic', 'ngDragDrop', 'angular.filter', 'magics
             .state('tabs.game', {
                 url: '/game-intro',
                 views: {
-                    'game-tab': {
+                    'game-intro': {
                         templateUrl: 'partials/game-intro.html',
                         controller: 'Intro',
                         controllerAs: 'intro'
