@@ -1,4 +1,4 @@
-<ion-view view-title="Game" hide-nav-bar="false" ng-controller="Navigation as navigation">
+<ion-view view-title="Game" hide-nav-bar="true" ng-controller="Navigation as navigation">
     <ion-nav-buttons side="primary">
         <button class="button-icon ion-arrow-left-c button back-button" ng-click="navigation.goBack()">
            Back
@@ -80,6 +80,10 @@
         <!--THE CONTROLS-->
         <div ng-if="true" class="row controls-row flex-container">
             <form class="flex-container-all-row" style="padding-top: 1%">
+                <!--EXIT-->
+                <button class="button button-balanced control-button" type="submit" ng-click="navigation.goBack()">Quit
+                </button>
+
                 <!--CHECK-->
                 <button class="button button-balanced control-button" type="submit" ng-click="master.check()"
                         ng-disabled="!master.complete || master.checked">Check
