@@ -9,5 +9,11 @@
         this.goBack = function() {
             $state.go('tabs.game');
         };
+
+        //
+        this.goGame = function() {
+            console.log('go to the game!');
+            $state.go('game');
+        };
     }]);
 }());
