@@ -37,6 +37,16 @@ angular.module('magicsquares', ['ionic', 'ngDragDrop', 'angular.filter', 'magics
                     }
                 }
             })
+            .state('tabs.info', {
+                url: '/info',
+                views: {
+                    'information-tab' : {
+                        templateUrl: 'partials/game-info.html',
+                        controller: 'Info',
+                        controllerAs: 'info'
+                    }
+                }
+            })
             .state('game', {
                 url: '/game',
                 controller: 'Master',
