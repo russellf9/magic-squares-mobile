@@ -17,6 +17,7 @@ A continuation of my previous Github project [Magic Squares](https://github.com/
 - [Technical Specifications](#technical-specifications)
 - [Installation](#installation)
 - [Gulp Commands](#gulp-commands)
+- [Trello/Github Integration](#trellogithub-integration)
 - [Known Issues:](#known-issues)
   - [SASS](#sass)
 - [TODO](#todo)
@@ -38,7 +39,7 @@ To solve the puzzle the numbers in each row, and in each column, and the diagona
 
 The current version of the app is:
 
-**0.1.6**
+**0.1.8**
 
 
 ## App Store
@@ -221,8 +222,6 @@ gem update sass
 
 ```
 .
-├── .bowerrc
-├── .git
 ├── .gitignore
 ├── .jscsrc
 ├── .jshintrc
@@ -241,12 +240,17 @@ gem update sass
 │   │   ├── fredokaone-regular-webfont.svg
 │   │   ├── fredokaone-regular-webfont.ttf
 │   │   ├── fredokaone-regular-webfont.woff
-│   │   └── fredokaone-regular-webfont.woff2
+│   │   ├── fredokaone-regular-webfont.woff2
+│   │   ├── ionicons.eot
+│   │   ├── ionicons.svg
+│   │   ├── ionicons.ttf
+│   │   └── ionicons.woff
 │   ├── img
 │   │   └── icon.png
 │   ├── index.html
 │   ├── js
 │   │   ├── app.js
+│   │   ├── content.ctrl.js
 │   │   ├── controllers.js
 │   │   ├── game
 │   │   │   ├── dragDrop.ctrl.js
@@ -255,10 +259,22 @@ gem update sass
 │   │   │   ├── master.ctrl.js
 │   │   │   ├── model.svc.js
 │   │   │   └── text.svc.js
+│   │   ├── home
+│   │   │   └── home.ctrl.js
+│   │   ├── info
+│   │   │   └── info.ctrl.js
+│   │   ├── intro
+│   │   │   └── intro.ctrl.js
 │   │   ├── lodash.svc.js
+│   │   ├── navigation
+│   │   │   └── navigation.ctrl.js
 │   │   └── services.js
 │   └── partials
-│       └── game.html
+│       ├── game-info.html
+│       ├── game-intro.html
+│       ├── game.html
+│       ├── home.html
+│       └── tabs.html
 ├── bower.json
 ├── config.xml
 ├── gulp
