@@ -4,6 +4,5 @@
 
         console.log('hi from the game intro!');
 
-
     }]);
 }());

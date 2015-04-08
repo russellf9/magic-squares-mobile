@@ -10,9 +10,8 @@
             $state.go('tabs.game');
         };
 
-        //
+        // navigate to the game
         this.goGame = function() {
-            console.log('go to the game!');
             $state.go('game');
         };
     }]);
