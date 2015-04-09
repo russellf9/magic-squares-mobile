@@ -1,3 +1,5 @@
+//@import "typography";
+
 //defines various ui elements
 
 // the instruction text at the top
@@ -162,6 +164,26 @@ $indicatorBottomMarginTop: -25px;
 
 .test {
   border: dotted 2px $dragBorderColor;
+  height: 400px;
+}
+
+
+.row-content {
+//  border: dotted 2px $dragBorderColor;
+  margin-top: 2%;
+  padding: 3% 5%;
+  min-height: 200px;
+}
+.home-content {
+//  border: dotted 2px $red;
+  height: 150px;
+}
+
+.content h1, h2, h3, h4, h5, h6 {
+  font-family: $base-font-family;
+}
+.content h1, h2, h3 {
+  text-align: center;
 }
 
 
