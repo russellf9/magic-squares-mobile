@@ -167,28 +167,35 @@ $indicatorBottomMarginTop: -25px;
   height: 400px;
 }
 
-
 .row-content {
-//  border: dotted 2px $dragBorderColor;
   margin-top: 2%;
   padding: 3% 5%;
   min-height: 200px;
 }
+
+// shared class
+.tab-row-content h3, h4 {
+  font-family: $base-font-family;
+  text-align: center;
+}
+
 .home-content {
-//  border: dotted 2px $red;
+  @extend .tab-row-content;
   height: 150px;
+}
+
+.home-content h4 {
+  text-align: left;
 }
 
 .info-content {
-  //  border: dotted 2px $red;
+  @extend .tab-row-content;
   height: 150px;
 }
 
-.content h1, h2, h3, h4, h5, h6 {
-  font-family: $base-font-family;
-}
-.content h1, h2, h3 {
-  text-align: center;
+.row-game-content {
+  @extend .tab-row-content;
+  height: 100px;
 }
 
 
