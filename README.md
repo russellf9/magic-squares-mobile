@@ -187,7 +187,14 @@ The link to the commit on Github should be active and the name of the developer 
 ```
 
 
-Instructions can ne found here: [hook-to-trello](https://github.com/olebedev/hook-to-trello.)
+Instructions can be found here: [hook-to-trello](https://github.com/olebedev/hook-to-trello.)
+
+
+## iTunes Connect
+
+[itunesconnect](https://itunesconnect.apple.com) is the portal to update various aspects of the app.
+
+To see the number of sales navigate to `iTunes Connect -> Sales and Trends`
 
 
 ## Known Issues:
