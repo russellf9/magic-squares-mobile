@@ -1,7 +1,7 @@
 // The Magic Squares App
 'use strict';
 
-angular.module('magicsquares', ['ionic', 'ngDragDrop', 'angular.filter', 'magicsquares.controllers', 'magicsquares.services'])
+angular.module('magicsquares', ['ionic', 'ngDragDrop', 'angular.filter', 'magicsquares.controllers', 'magicsquares.services', 'filters'])
 
     .run(function(_, $ionicPlatform) {
         $ionicPlatform.ready(function() {

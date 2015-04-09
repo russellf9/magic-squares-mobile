@@ -144,6 +144,14 @@ $ gulp -run
 # or
 $ gulp -r
 ```
+**Note:** I'm having some issues here updating the build. And, it seems quicker to run from Xcode.
+
+```
+$ cordova prepare
+$ gulp -b
+$ gulp -run
+```
+I added the `rsync -a -c ` hack to the `copy-www-build-step.sh`
 
 **gulp utilities**
 

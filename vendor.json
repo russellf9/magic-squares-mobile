@@ -7,5 +7,6 @@
   "./bower_components/angular-animate/angular-animate.js",
   "./bower_components/angular-dragdrop/src/angular-dragdrop.js",
   "./bower_components/lodash/lodash.js",
-  "./bower_components/angular-filter/dist/angular-filter.js"
+  "./bower_components/angular-filter/dist/angular-filter.js",
+  "./bower_components/ios-weblinks/dist/webapplinks.js"
 ]
