@@ -80,6 +80,11 @@ html{
 }
 
 
+// for the anchors
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none; color: $buttonColor;
+}
+
 
 // see: https://gist.github.com/nathggns/2984123
 @mixin stroke($width, $color) {
