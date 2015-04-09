@@ -85,6 +85,17 @@ a, a:link, a:visited, a:hover, a:active {
   text-decoration: none; color: $buttonColor;
 }
 
+// we want the icons to be darker!
+//a.icon:link, a.icon:visited, a.icon:hover, a.icon:active {
+//  text-decoration: none; color: $red;
+//}
+.tab-nav a:link {color: $lightBlue;}
+.tab-nav a:visited {color: $lightBlue;}
+.tab-nav a:hover {color: $lightBlue;}
+.tab-nav a:focus {color: $lightBlue;}
+.tab-nav a:active {color: $lightBlue;}
+
+
 
 // see: https://gist.github.com/nathggns/2984123
 @mixin stroke($width, $color) {
