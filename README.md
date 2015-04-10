@@ -44,9 +44,9 @@ The current version of the app is:
 
 ## App Store
 
-The app ( version 0.0.1 ) is now available on the app store!
+The app ( version 0.1.6 ) is now available on the app store!
 
-[<img src="/design/magic-square-game.png?raw=true">](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=966245243&mt=8)
+[<img src="/design/magic-square-game-0.1.6.png?raw=true">](https://itunes.apple.com/WebObjects/MZStore.woa/wa/viewSoftware?id=966245243&mt=8)
 
 
 ## Screenshot
