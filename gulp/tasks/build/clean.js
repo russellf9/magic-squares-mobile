@@ -6,13 +6,14 @@ var gulp    = require('gulp'),
 
 
 // cleans the distribution folder
-gulp.task('clean', function() {
+gulp.task('clean', function(cb) {
 
     var build = gulp.args.build || gulp.args.emulate || gulp.args.run,
         targetDir = path.resolve(build ? './www' : './.tmp');
 
-    return gulp.src(targetDir)
+    gulp.src(targetDir)
         .pipe(gulp.plugins.clean({force: true, read: false})).on('error', errorHandler);
+    cb();
 });
 
 // Handle errors
