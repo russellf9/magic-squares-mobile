@@ -146,6 +146,8 @@ $ gulp -r
 ```
 **Note:** I'm having some issues here updating the build. And, it seems quicker to run from Xcode.
 
+Also, the task is working but runs the emulator instead.
+
 ```
 $ cordova prepare
 $ gulp -b
