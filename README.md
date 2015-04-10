@@ -39,7 +39,7 @@ To solve the puzzle the numbers in each row, and in each column, and the diagona
 
 The current version of the app is:
 
-**0.2.0**
+**0.2.1**
 
 
 ## App Store
@@ -152,6 +152,16 @@ $ gulp -b
 $ gulp -run
 ```
 I added the `rsync -a -c ` hack to the `copy-www-build-step.sh`
+
+
+To force clean:
+
+```
+$ sudo cordova platform rm ios
+$ cordova platform add ios
+
+
+```
 
 **gulp utilities**
 
