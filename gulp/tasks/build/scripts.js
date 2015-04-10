@@ -14,7 +14,7 @@ gulp.task('scripts', function() {
 
     return gulp.src(targetSrc)
         .pipe(gulp.plugins.concat(config.scripts.name))
-        //.pipe(gulp.plugins.if(build, gulp.plugins.stripDebug()))
+        .pipe(gulp.plugins.if(build && !config.settings.debug, gulp.plugins.stripDebug()))
         .pipe(gulp.plugins.header(config.build.closureStart))
         .pipe(gulp.plugins.footer(config.build.closureEnd))
         .pipe(gulp.plugins.if(build, gulp.plugins.rename({extname: '.min.js'})))

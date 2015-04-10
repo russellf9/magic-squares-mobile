@@ -9,6 +9,9 @@ module.exports = {
     pkg: {
         version: '0.1.6'
     },
+    settings: {
+        debug: true
+    },
     paths: {
         sass: './scss/**/*.{scss, sass}',
         fonts: app + '/fonts/**',

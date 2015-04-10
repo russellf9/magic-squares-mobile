@@ -39,7 +39,7 @@ To solve the puzzle the numbers in each row, and in each column, and the diagona
 
 The current version of the app is:
 
-**0.2.1**
+**0.2.2**
 
 
 ## App Store
@@ -162,7 +162,12 @@ To force clean:
 $ sudo cordova platform rm ios
 $ cordova platform add ios
 
+```
 
+Update the ios platform:
+
+```
+$ ionic build ios
 ```
 
 **gulp utilities**
