@@ -1,0 +1,5 @@
+[
+  "./bower_components/ionic/css/ionic.min.css",
+  "./bower_components/jquery-ui/themes/ui-lightness/jquery-ui.css",
+  "./bower_components/ionicons/css/ionicons.css'"
+]

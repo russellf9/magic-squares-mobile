@@ -14,12 +14,10 @@ gulp.task('styles', function() {
 
     options.style = build ? 'compressed' : 'expanded';
 
-    var cssPaths = ['./bower_components/ionic/css/ionic.min.css',
-        './bower_components/jquery-ui/themes/ui-lightness/jquery-ui.css', './bower_components/ionicons/css/ionicons.css'],
-        sassStream = gulp.plugins.rubySass(config.sass.rubySrc, options)
+    var sassStream = gulp.plugins.rubySass(config.sass.rubySrc, options)
             .pipe(gulp.plugins.autoprefixer(config.sass.autoprefixer))
             .on('error', errorHandler),
-        cssStream = gulp.src(cssPaths),
+        cssStream = gulp.src(gulp.cssFiles),
         targetDir = path.resolve(build ? './www' : './.tmp');
 
     return streamqueue({objectMode: true}, cssStream, sassStream)
@@ -42,13 +40,4 @@ function errorHandler(error) {
     /*jshint validthis:true */
     this.emit('end');
 }
-/**
- TODO;
 
- add notify
- .pipe(notify({
-        title: 'SASS',
-        message: 'SASS completed.  New CSS created!',
-        sound: 'Pop'
-    }));
- */
