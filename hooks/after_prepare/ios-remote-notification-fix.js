@@ -18,7 +18,6 @@ sys.puts('# ================================================================');
 var fn = 'platforms/ios/Magic\ Squares/Classes/AppDelegate.m';
 var fno = fn + '.orig';  // backup
 
-console.log('doing hook ios-remote-notification-fix!');
 
 // Make sure that this hook is re-entrant.
 if (fs.existsSync(fn) && !fs.existsSync(fno)) {
