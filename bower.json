@@ -1,6 +1,6 @@
 {
   "name": "magic-squares",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "private": "true",
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#1.0.0-rc.1",

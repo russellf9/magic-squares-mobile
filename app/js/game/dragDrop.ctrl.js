@@ -74,9 +74,11 @@
          */
         this.outCallback = function(event, ui, index) {
             var currentDragItem = Model.selectedItems()[index];
+            //jscs:disable
             if (currentDragItem && currentDragItem.hasOwnProperty('title')) {
                 // console.log('DragDrop::outCallback  - hey, good bye to: ', currentDragItem.title);
             }
+            //jscs:enable
         };
         /**
          * returns the total of the selected items in the selected row
@@ -103,7 +105,7 @@
         this.getDiagonalTotal = function(value) {
             return Model.getDiagonalTotal(value);
         };
-         /* returns the total of the selected items in the selected diagonal
+        /** returns the total of the selected items in the selected diagonal
          * @param value
          * @returns {number}
          */
@@ -113,5 +115,6 @@
         };
     }]);
 }());
+
 
 
